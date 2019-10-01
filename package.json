@@ -12,8 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
-  },
+  "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ssiarules/npm-lab-online-web-pt-011419.git"
